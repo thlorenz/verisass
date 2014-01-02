@@ -106,7 +106,7 @@ Type
 </dl>
 </dd>
 <dt>
-<h4 class="name" id="verisass.run"><span class="type-signature"></span>verisass_run<span class="signature">(scssSrc, cb)</span><span class="type-signature"></span></h4>
+<h4 class="name" id="verisass.run"><span class="type-signature"></span>verisass.run<span class="signature">(scssSrc, cb)</span><span class="type-signature"></span></h4>
 </dt>
 <dd>
 <div class="description">
