@@ -1,5 +1,4 @@
 #!/usr/bin/env sh
 
 # appearently after installing the sass gem neither sass nor scss are available globally as a command
-(command -v scss >/dev/null 2>&1 && scss) || \
-  export scss=`gem environment | grep '\- EXECUTABLE DIRECTORY:' | sed 's/\- EXECUTABLE DIRECTORY: //'`/sass
+echo `gem environment | grep '\- INSTALLATION DIRECTORY:' | sed 's/\- INSTALLATION DIRECTORY: //'`/gems/sass*/bin/scss
