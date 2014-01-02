@@ -6,5 +6,5 @@ before_install:
   - rvmsudo gem install sass
   - gem environment
 
-  - (command -v scss >/dev/null 2>&1 && scss) || export scss=`gem environment | grep '\- INSTALLATION DIRECTORY:' | sed 's/\- INSTALLATION DIRECTORY: //'`/gems/sass*/bin/scss
+  - (command -v scss >/dev/null 2>&1) || export scss=`gem environment | grep '\- INSTALLATION DIRECTORY:' | sed 's/\- INSTALLATION DIRECTORY: //'`/gems/sass*/bin/scss
   - echo 'scss' $scss
