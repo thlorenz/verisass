@@ -2,8 +2,6 @@ language: node_js
 node_js:
   - "0.8"
   - "0.10"
-env:
-  - VERISASS_SCSS=/home/travis/.rvm/gems/ruby-1.9.3-p448/bin/scss
 before_install:
   - gem install sass --no-document
   - gem environment

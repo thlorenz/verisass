@@ -1,4 +1,4 @@
-# verisass [![build status](https://secure.travis-ci.org/thlorenz/verisass.png)](http://travis-ci.org/thlorenz/verisass)
+# verisass
 
 Verify that your sass functions generate the css you expect.
 
