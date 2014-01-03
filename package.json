@@ -1,6 +1,6 @@
 {
   "name": "verisass",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Verify that your sass functions generate the css you expect.",
   "main": "index.js",
   "scripts": {
@@ -19,7 +19,15 @@
   "devDependencies": {
     "tap": "~0.4.3"
   },
-  "keywords": [ "scss", "sass", "css", "verify", "test", "functions", "logic" ],
+  "keywords": [
+    "scss",
+    "sass",
+    "css",
+    "verify",
+    "test",
+    "functions",
+    "logic"
+  ],
   "author": {
     "name": "Thorsten Lorenz",
     "email": "thlorenz@gmx.de",
