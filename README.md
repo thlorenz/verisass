@@ -23,21 +23,6 @@ css: x {
 lines: [ 'x {', '  x: 3px;', '}' ]
 ```
 
-```js
-var verisass = require('verisass');
-
-verisass(path.join(fixtures, 'add-fn.scss'))
-  .run('x { x: add(1px, 2px)}', function (err, lines) {
-    console.log(lines);
-  });
-```
-
-### Output
-
-```
-[ 'x {', '  x: 3px;', '}' ]
-```
-
 ## Installation
 
     npm install verisass

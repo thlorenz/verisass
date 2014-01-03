@@ -1,6 +1,6 @@
 {
   "name": "verisass",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Verify that your sass functions generate the css you expect.",
   "main": "index.js",
   "scripts": {
